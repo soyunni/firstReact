@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.background {
+  background-image : url(./background.jpg);
+  background-position : center;
+  height: 200px;
+}
+
+.jumbotron {
+  position: relative;
+  padding: 1rem;
+  border: 0.2rem solid #ececec;
+  border-radius: 8px;
+  margin-right: 0;
+  margin-left: 0;
+  color: #212529;
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+}
+
+.jumbotron-container{
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
